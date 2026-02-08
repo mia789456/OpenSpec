@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Fission-AI/OpenSpec">
+  <a href="https://github.com/mia789456/OpenSpec">
     <picture>
       <source srcset="assets/openspec_pixel_dark.svg" media="(prefers-color-scheme: dark)">
       <source srcset="assets/openspec_pixel_light.svg" media="(prefers-color-scheme: light)">
@@ -10,7 +10,7 @@
 </p>
 <p align="center">Spec-driven development for AI coding assistants.</p>
 <p align="center">
-  <a href="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml/badge.svg" /></a>
+  <a href="https://github.com/mia789456/OpenSpec/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/mia789456/OpenSpec/actions/workflows/ci.yml/badge.svg" /></a>
   <a href="https://www.npmjs.com/package/@fission-ai/openspec"><img alt="npm version" src="https://img.shields.io/npm/v/@fission-ai/openspec?style=flat-square" /></a>
   <a href="https://nodejs.org/"><img alt="node version" src="https://img.shields.io/node/v/@fission-ai/openspec?style=flat-square" /></a>
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
@@ -155,12 +155,12 @@ openspec --version
 
 Run OpenSpec directly without installation:
 ```bash
-nix run github:Fission-AI/OpenSpec -- init
+nix run github:mia789456/OpenSpec -- init
 ```
 
 Or install to your profile:
 ```bash
-nix profile install github:Fission-AI/OpenSpec
+nix profile install github:mia789456/OpenSpec
 ```
 
 Or add to your development environment in `flake.nix`:
@@ -168,7 +168,7 @@ Or add to your development environment in `flake.nix`:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    openspec.url = "github:Fission-AI/OpenSpec";
+    openspec.url = "github:mia789456/OpenSpec";
   };
 
   outputs = { nixpkgs, openspec, ... }: {
