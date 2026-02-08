@@ -35,13 +35,13 @@ bun add -g @fission-ai/openspec@latest
 Run OpenSpec directly without installation:
 
 ```bash
-nix run github:Fission-AI/OpenSpec -- init
+nix run github:mia789456/OpenSpec -- init
 ```
 
 Or install to your profile:
 
 ```bash
-nix profile install github:Fission-AI/OpenSpec
+nix profile install github:mia789456/OpenSpec
 ```
 
 Or add to your development environment in `flake.nix`:
@@ -50,7 +50,7 @@ Or add to your development environment in `flake.nix`:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    openspec.url = "github:Fission-AI/OpenSpec";
+    openspec.url = "github:mia789456/OpenSpec";
   };
 
   outputs = { nixpkgs, openspec, ... }: {
